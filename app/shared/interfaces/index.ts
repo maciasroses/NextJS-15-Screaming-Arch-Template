@@ -4,3 +4,9 @@ export interface IGenericIcon {
   strokeWidth?: number;
   isFilled?: boolean;
 }
+
+export interface IBaseLangPage {
+  params: Promise<{
+    lng: string;
+  }>;
+}
